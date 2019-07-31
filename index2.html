@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Ejercicio 2</title>
+  <style>
+    body {
+      background-color: gray;
+    }
+
+    body * {
+      box-sizing: border-box;
+    }
+
+    .flex-container {
+      background-color: white;
+      width: 900px;
+      height: 300px;
+      margin: 0 auto;
+    }
+
+    .input-group {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      height: inherit;
+      padding: 2%;
+    }
+
+    .input {
+      border-width: 1px;
+      border-color: #c6c6c6;
+      font-family: monospace;
+      padding: 10px 20px;
+      font-size: 2em;
+      flex-grow: 1;
+    }
+
+    .btn {
+      font-family: monospace;
+      font-size: 2em;
+      border-color: #c6c6c6;
+      background-color: #7BF9F5;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      cursor: pointer;
+      border-width: 1px;
+    }
+
+    .btn:hover {
+      background-color: peru;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="flex-container">
+    <div class="input-group">
+      <input type="text" name="search" class="input">
+      <button type="button" class="btn">Buscar</button>
+    </div>
+  </div>
+</body>
+
+</html>
